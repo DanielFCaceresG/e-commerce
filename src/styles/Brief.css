@@ -1,0 +1,52 @@
+.brief-container {
+  margin: 30px auto;
+  padding: 1rem;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.cart-table {
+  width: 100% !important;
+  table-layout: auto;
+  font-size: 0.95rem;
+}
+
+.cart-header {
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+.cart-row td {
+  vertical-align: middle;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.quantity-btn {
+  background-color: #198754;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.quantity-btn:hover {
+  background-color: #157347;
+}
+
+.quantity-display {
+  min-width: 28px;
+  text-align: center;
+}

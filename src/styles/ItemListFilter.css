@@ -1,0 +1,10 @@
+.react-select__control {
+  border-radius: 0.5rem;
+  border-color: #ced4da;
+}
+.react-select__multi-value {
+  background-color: #0d6efd;
+}
+.react-select__multi-value__label {
+  color: white;
+}

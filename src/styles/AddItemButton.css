@@ -1,0 +1,14 @@
+.add-item-button-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px; /* separación respecto a los botones de cantidad */
+}
+
+.add-button {
+  margin-left: 10px;
+  margin-top: 0 !important;
+  height: 38px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+}

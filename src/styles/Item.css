@@ -1,0 +1,21 @@
+.product-card {
+  transition: transform 0.2s ease-in-out;
+  border-radius: 0.5rem;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-card .cart-badge {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: #198754;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
